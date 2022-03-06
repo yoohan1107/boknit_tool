@@ -1,0 +1,56 @@
+[
+	{
+		"cat": "Cardigan",
+		"subcat": [{
+				"name": "Cardigan01",
+				"yarn": "Yarn for Cardigan01",
+				"needles": "Needle for Cardigan01",
+				"gauge": 8,
+				"sts": 8,
+        "sts1cm": 0.8,
+				"rows": 8,
+				"spec": [
+					{
+						"size": 8
+					},
+					{
+						"size": 9
+					},
+					{
+						"size": 10
+					}
+				]
+			},
+			{
+				"name": "Cardigan02",
+				"yarn": "Yarn for Cardigan02",
+				"needles": "Needle for Cardigan02",
+				"gauge": 9,
+				"sts": 9,
+				"rows": 9,
+				"spec": [
+					{
+						"size": 11
+					}
+				]
+			}
+		]
+	},
+	{
+		"cat": "Vest",
+		"subcat": [{
+				"name": "Vest01",
+				"yarn": "Yarn for Vest01",
+				"needles": "Needle for Vest01",
+				"gauge": 10,
+				"sts": 10,
+				"rows": 10,
+				"spec": [
+					{
+						"size": 12
+					}
+				]
+			}
+		]
+	}
+]

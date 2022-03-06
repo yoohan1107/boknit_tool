@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,306 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/*------------------- Header DropDown (Category) --------------------*/
+.header {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: #355935;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .cat {
+  border: 0px solid red;
+  display: flex;
+}
+.header .cat .separator {
+  padding-top: 7px;
+}
+ 
+.dropDown {
+  cursor: pointer;
+  font-family: "Creo-Light";
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dropDown-size {
+  cursor: pointer;
+  font-family: "Creo-Light";
+  height: 28px;
+  margin-left: 0px;
+  margin-top: -5px;
+  border-bottom: 1px solid #c1c1c1;
+}
+/*
+.dropDown .dropDownBtn {
+  padding-top: 7px;
+  background-color: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Creo-SemiBold";
+  font-size: 12pt;
+}
+.dropDown .dropDownMenu1 {
+  position: absolute;
+  min-width: 100px;
+  top: 100%;
+  right: 0px;
+  margin-right: -18px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #d3d3d3;
+  box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.2);
+  color: #355935;
+  text-align: right;
+}
+.dropDown .dropDownMenu2 {
+  position: absolute;
+  min-width: 100px;
+  top: 100%;
+  left: 0px;
+  margin-left: -17px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #d3d3d3;
+  color: #355935;
+  text-align: left;
+}
+.dropDownItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.dropDownItem:hover {
+  background-color: #f4f4f4;
+} */
+
+/*------------------------ Main Wrapper ------------------------*/
+.wrapper {
+  /* border: 1px solid; */
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: #eaeaea;
+}
+.footer {
+  z-index: 9999;
+  /* bottom: 0; */
+  width: 100%;
+  background-color: #355935;
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /* border: 1px solid; */
+}
+.copy-right {
+  padding-left: 15px;
+  font-family: "Creo-Light";
+  font-size: 8pt;
+  color: #ffffff;
+  vertical-align:text-top;
+}
+.row {
+  padding: 0px;
+}
+.row #row2 {
+  padding: 0px 0px 10px 0px;
+}
+.col {
+  padding: 0px;
+  border: 0px solid;
+}
+.col-sm {
+  border: 0px solid red;
+}
+.title-bar {
+  z-index: 200;
+  border: 0px solid;
+  height: 200px;
+  position: relative;
+  background-color: #ffffff;
+}
+.title-text {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-family: "Creo-Bold";
+  font-size: 13pt;
+  border: 0px;
+}
+.title-copy-right {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  font-family: "Creo-Bold";
+  font-size: 9pt;
+  transform: rotate(90deg);
+  transform-origin: right top;
+  color: #355935;
+}
+.container {
+  /* min-width: 600px; */
+  max-width: 50%;
+}
+.container-sm {
+  background-color: #ffffff;
+  max-width: 800px;
+  min-width: 800px;
+}
+.pattern-label {
+  display: flex;
+  border: 0px solid;
+  padding-top: 1px;
+  margin-right: -20px;
+  height: 30px;
+  width: 90px;
+  font-family: "Creo-Bold";
+  font-size: 10pt;
+}
+.label-text {
+  display: flex;
+  border: 0px solid;
+}
+.pattern-label-sm {
+  display: flex;
+  border: 0px solid;
+  height: 30px;
+  width: 80px;
+  margin-right: -20px;
+  font-family: "Creo-Light";
+  font-size: 10pt;
+}
+.pattern-input {
+  display: flex;
+  width: 100%;
+  border: 0px solid;
+  border-bottom: 1px solid #c1c1c1;
+  font-family: "Creo-Light";
+  font-size: 10pt;
+}
+.pattern-input:focus {
+  outline: none;
+}
+.pattern-input-sm {
+  display: flex;
+  width: 100%;
+  border: 0px solid;
+  border-bottom: 1px solid #c1c1c1;
+  font-family: "Creo-Light";
+  font-size: 10pt;
+  text-align: right;
+}
+.pattern-input-sm:focus {
+  outline: none;
+}
+.text-autosize {
+  border: 0px;
+  border-bottom: 1px solid #c1c1c1;
+  min-width: 100%;
+  font-family: "Creo-Light";
+  font-size: 10pt;
+}
+.text-autosize::-webkit-scrollbar {
+  display: none;
+}
+.text-autosize:focus {
+  outline: none;
+}
+
+/*------------------- Pattern Spec ------------------------*/
+#col-content {
+  border-top: 1px solid #355935;
+  border-bottom: 1px solid #355935;
+}
+.content-area {
+  z-index: 0;
+  background-color: #ffffff;
+  border: 0px solid;
+  padding: 30px 30px 20px 30px;
+}
+#content1 {
+  border-right: 0px solid #4b7f4b;
+}
+#content2 {
+  color: #527252;
+  border-left: 0px solid #4b7f4b;
+}
+.stroke-1 {
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  /* height: 572px; */
+  height: 100%;
+  border-right: 1px solid #355935;
+  /* border-right: 1px solid yellow; */
+}
+.toggle-button {
+  z-index: 200;
+  background-color: #355935;
+  color: #ffffff;
+  border: 0;
+  min-width: 100%;
+  min-height: 50px;
+  font-family: 'Creo-Regular';
+}
+.toggle-button:hover {
+  background-color: #527252;
+  color:#ffffff;
+}
+.toggle-button:active {
+  background-color: #eaeaea;
+  color:#355935;
+}
+.active-color {
+  z-index: 200;
+  background-color: #eaeaea;
+  color: #355935;
+  border: 0;
+  min-width: 100%;
+  min-height: 50px;
+  font-family: 'Creo-Regular';
+}
+.image-area {
+  /* display: flex; */
+  padding: 50px;
+  /* height: 500px; */
+  max-height: 100%;
+  background-color: #eaeaea;
+  min-height: 400px;
+  align-content: center;
+  position: relative;
+  z-index: 200;
+}
+.img {
+  z-index: 3;
+  width: 100%;
+}
+/* .spec-area {
+  position: absolute;
+  z-index: 300;
+  font-weight: bold;
+  font-size: 30pt;
+} */
+.spec-num{
+  position: absolute;
+  z-index: 300;
+  font-weight: bold;
+  font-size: 12pt;
+  text-align: center;
+  color: #999999;
+}
+#bottom-col{
+  height: 100%;
 }

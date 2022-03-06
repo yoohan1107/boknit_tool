@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Creo-SemiBold";
+  src: local("Creo-SemiBold"),
+    url("./fonts/Creo/Creo-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Creo-Light";
+  src: local("Creo-Light"),
+    url("./fonts/Creo/Creo-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Creo-Bold";
+  src: local("Creo-Bold"),
+    url("./fonts/Creo/Creo-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Creo-Regular";
+  src: local("Creo-Regular"),
+    url("./fonts/Creo/Creo-Regular.ttf") format("truetype");
+}

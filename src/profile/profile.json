@@ -1,0 +1,54 @@
+[
+	{
+		"Cardigan": [
+			{
+				"name": "Vevety",
+				"size": "10",
+				"yarn": "Knitting for Olive",
+				"needles": "10mm",
+				"gauge": "Kni",
+				"sts": "10",
+				"rows": "10",
+				"src": "./vevety.png"
+			},
+			{
+				"name": "lily",
+				"size": "20",
+				"yarn": "LILULILY",
+				"needles": "20mm",
+				"gauge": "LILY",
+				"sts": "20",
+				"rows": "20",
+				"src": "./vevety.png"
+			}
+		]
+	},
+	{
+		"Vest": [
+			{
+				"name": "Jay",
+				"size": "30",
+				"yarn": "JAYJAY",
+				"needles": "30mm",
+				"gauge": "JAY",
+				"sts": "30",
+				"rows": "40",
+				"src": "./vevety.png"
+			}
+		]
+	},
+	{
+		"Sweater": [
+			{
+				"name": "Boeun",
+				"size": "40",
+				"yarn": "BOEUNBOEUN",
+				"needles": "40mm",
+				"gauge": "BOEUN",
+				"sts": "40",
+				"rows": "40",
+				"src": "./vevety.png"
+			}
+		]
+	}
+]

@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Creo/Creo-SemiBold.ttf'
+import './fonts/Creo/Creo-Light.ttf'
+import './fonts/Creo/Creo-Bold.ttf'
+import './fonts/Creo/Creo-Regular.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
